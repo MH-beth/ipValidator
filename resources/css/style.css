@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+    border:solid 10px dodgerblue;
+    border-radius:5rem;
+}
+#check-btn{
+    margin-bottom:0.5cm;
+}
+#check-btn:hover{
+    border:solid 5px black;
+    background:linear-gradient(90deg , cyan, dodgerblue);
+    transition:all 0.8s ease-in-out;
+    border-radius:2rem;
+}
+.main{
+    background:orange;
+    border-radius:5rem;
+    border:solid 15px orange;
+}
+#result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+.ips input{
+    border-radius:5rem;
+}
