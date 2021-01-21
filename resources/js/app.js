@@ -46,7 +46,8 @@ function check(){
     else{
         ipShow.textContent = `this ip is incorrect !`;
     }
-
-    
-
+	if(typeof fcon == string || typeof scon == string || typeof tcon == string || typeof frcon == string){
+		result.textContent = `An Ip adress can not containe a string value`;
+		statue = false;
+	}
 }
